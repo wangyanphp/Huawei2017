@@ -14,4 +14,104 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="bag.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="canceledge.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="cancelingcycle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="curtime.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="deploy.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="directedcycle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="graph.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="head.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="initialsolution.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lib_io.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="lib_time.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="maxflow.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mincostmaxflow.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="networkflow.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="queue.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="shrink.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stack.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="canceledge.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cancelingcycle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cdn.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="curtime.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="deploy.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="directedcycle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="graph.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="initialsolution.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="io.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="maxflow.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mincostmaxflow.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="networkflow.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>

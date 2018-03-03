@@ -142,6 +142,40 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="bag.h" />
+    <ClInclude Include="canceledge.h" />
+    <ClInclude Include="cancelingcycle.h" />
+    <ClInclude Include="curtime.h" />
+    <ClInclude Include="deploy.h" />
+    <ClInclude Include="directedcycle.h" />
+    <ClInclude Include="graph.h" />
+    <ClInclude Include="head.h" />
+    <ClInclude Include="initialsolution.h" />
+    <ClInclude Include="lib_io.h" />
+    <ClInclude Include="lib_time.h" />
+    <ClInclude Include="maxflow.h" />
+    <ClInclude Include="mincostmaxflow.h" />
+    <ClInclude Include="networkflow.h" />
+    <ClInclude Include="queue.h" />
+    <ClInclude Include="shrink.h" />
+    <ClInclude Include="sp.h" />
+    <ClInclude Include="stack.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="canceledge.cpp" />
+    <ClCompile Include="cancelingcycle.cpp" />
+    <ClCompile Include="cdn.cpp" />
+    <ClCompile Include="curtime.cpp" />
+    <ClCompile Include="deploy.cpp" />
+    <ClCompile Include="directedcycle.cpp" />
+    <ClCompile Include="graph.cpp" />
+    <ClCompile Include="initialsolution.cpp" />
+    <ClCompile Include="io.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="maxflow.cpp" />
+    <ClCompile Include="mincostmaxflow.cpp" />
+    <ClCompile Include="networkflow.cpp" />
+    <ClCompile Include="sp.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
