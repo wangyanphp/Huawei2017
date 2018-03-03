@@ -1,0 +1,7 @@
+为了解决华为2017软件挑战赛的服务器选址问题，具体链接如下：http://codecraft.huawei.com/home/detail
+
+graph.h实现能够用于残存网络的Graph数据结构
+
+maxflow.h实现了EdmondsKarp最大流算法。
+networkflow.h实现网络单纯性算法。
+sp.h实现spfa算法
